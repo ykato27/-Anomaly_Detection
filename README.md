@@ -26,9 +26,10 @@ docker run -p 8888:8888 -v ~/Desktop/Anomaly_Detection/:/work --name Anomaly_Det
 workフォルダ内が対象フォルダにマウントされている
 
 ## jupyter notebook説明
-* MSPC.ipynb : 多変量統計的プロセス管理のnotebook
-* KNearestNeighbors_AnomalyDetection.ipynb : K近傍法の異常検知notebook
-* ChangeFinder.ipynb : ChangeFinderのnotebook
+* ChangeFinder.ipynb : 変化検知(ChangeFinder)のnotebook
+* KNearestNeighbors_AnomalyDetection.ipynb : 変化点検知(K近傍法)の異常検知notebook
+* ANACONDA.ipynb : 異常状態検知(ANACONDA)のnotebook
+* MSPC.ipynb : 異常状態検知(多変量統計的プロセス管理)のnotebook
 
 ## 動作環境
 マシンスペック（Mac)
