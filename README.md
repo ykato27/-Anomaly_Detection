@@ -5,7 +5,8 @@
 ```
 .
 ├── README.md                 READMEファイル
-└── Dockerfile                Dockerファイル
+├── Dockerfile                Dockerファイル
+└── data                      dataファイル
 ```
 
 ## 環境構築
@@ -27,6 +28,7 @@ workフォルダ内が対象フォルダにマウントされている
 ## jupyter notebook説明
 * MSPC.ipynb : 多変量統計的プロセス管理のnotebook
 * KNearestNeighbors_AnomalyDetection.ipynb : K近傍法の異常検知notebook
+* ChangeFinder.ipynb : ChangeFinderのnotebook
 
 ## 動作環境
 マシンスペック（Mac)
