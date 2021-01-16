@@ -15,6 +15,8 @@ ENV PATH /opt/anaconda3/bin:$PATH
 
 RUN pip install --upgrade pip \
 	changefinder \
-	hmmlearn
+	hmmlearn \
+	keras \
+	tensorflow
 WORKDIR /
 CMD ["jupyter", "lab", "--ip=0.0.0.0", "--allow-root", "--LabApp.token=''"]

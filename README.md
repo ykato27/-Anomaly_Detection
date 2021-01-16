@@ -29,6 +29,7 @@ workフォルダ内が対象フォルダにマウントされている
 * ChangeFinder.ipynb : 変化点検知(ChangeFinder)のnotebook
 * HMM.ipynb : 変化点検知(状態空間モデル)のnotebook
 * KNearestNeighbors_AnomalyDetection.ipynb : 変化点検知(K近傍法)のnotebook
+* LSTM_Keras.ipynb : 変化点検知(LSTM)のnotebook
 * Singular_Spectrum_Transformation.ipynb : 変化点検知(特異スペクトル変換法)のnotebook
 * ANACONDA.ipynb : 異常状態検知(疎構造学習による異常検知)のnotebook
 * GraphLasso.ipynb : 異常状態検知(疎構造学習による異常検知)のnotebook
