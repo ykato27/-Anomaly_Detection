@@ -25,9 +25,8 @@ docker run -p 8888:8888 -v ~/Desktop/Anomaly_Detection/:/work --name Anomaly_Det
 workフォルダ内が対象フォルダにマウントされている
 
 ## jupyter notebook説明
-* Regression_Models.ipynb : 回帰モデル全般のnotebook
-* SHAP.ipynb : SHAPのnotebook(機械学習モデルを解釈するためのライブラリー)
-* NGBoost.ipynb : XGBoostのnotebook(不確かさを扱える新しい勾配ブースティング)
+* MSPC.ipynb : 多変量統計的プロセス管理のnotebook
+* KNearestNeighbors_AnomalyDetection.ipynb : K近傍法の異常検知notebook
 
 ## 動作環境
 マシンスペック（Mac)
