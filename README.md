@@ -36,6 +36,16 @@ workフォルダ内が対象フォルダにマウントされている
 * GraphLasso.ipynb : 異常状態検知(疎構造学習による異常検知)のnotebook
 * MSPC.ipynb : 異常状態検知(多変量統計的プロセス管理)のnotebook
 
+## 参考文献
+* ChangeFinder.ipynb : データマイニングによる異常検知（書籍）
+* HMM.ipynb : 異常検知と変化検知（書籍）
+* KNearestNeighbors_AnomalyDetection.ipynb : 異常検知と変化検知（書籍）
+* LSTM_Keras.ipynb : 異常検知と変化検知（書籍）
+* Singular_Spectrum_Transformation.ipynb : [https://ide-research.net/papers/2004_JSSST_Ide.pdf](https://ide-research.net/papers/2004_JSSST_Ide.pdf)
+* ANACONDA.ipynb : [https://www.ibm.com/downloads/cas/AVQZBQ2L](https://www.ibm.com/downloads/cas/AVQZBQ2L)
+* GraphLasso.ipynb : [https://www.ibm.com/downloads/cas/AVQZBQ2L](https://www.ibm.com/downloads/cas/AVQZBQ2L)
+* MSPC.ipynb : [http://manabukano.brilliant-future.net/research/report/Report2005_MSPC.pdf](http://manabukano.brilliant-future.net/research/report/Report2005_MSPC.pdf)
+
 ## 動作環境
 マシンスペック（Mac)
 - MacBook Air (Retina, 13-inch, 2018)
