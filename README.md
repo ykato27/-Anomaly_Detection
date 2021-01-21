@@ -37,10 +37,10 @@ workフォルダ内が対象フォルダにマウントされている
 * MSPC.ipynb : 異常状態検知(多変量統計的プロセス管理)のnotebook
 
 ## 参考文献
-* ChangeFinder : データマイニングによる異常検知（書籍）
-* HMM : 異常検知と変化検知（書籍）
-* KNearestNeighbors_AnomalyDetection : 異常検知と変化検知（書籍）
-* LSTM_Keras : 異常検知と変化検知（書籍）
+* ChangeFinder : [データマイニングによる異常検知](https://www.amazon.co.jp/%E3%83%87%E3%83%BC%E3%82%BF%E3%83%9E%E3%82%A4%E3%83%8B%E3%83%B3%E3%82%B0%E3%81%AB%E3%82%88%E3%82%8B%E7%95%B0%E5%B8%B8%E6%A4%9C%E7%9F%A5-%E5%B1%B1%E8%A5%BF-%E5%81%A5%E5%8F%B8/dp/4320018826)（書籍）
+* HMM : [異常検知と変化検知](https://www.amazon.co.jp/%E7%95%B0%E5%B8%B8%E6%A4%9C%E7%9F%A5%E3%81%A8%E5%A4%89%E5%8C%96%E6%A4%9C%E7%9F%A5-%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%E3%83%97%E3%83%AD%E3%83%95%E3%82%A7%E3%83%83%E3%82%B7%E3%83%A7%E3%83%8A%E3%83%AB%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-%E4%BA%95%E6%89%8B-%E5%89%9B/dp/4061529080)（書籍）
+* KNearestNeighbors_AnomalyDetection : [異常検知と変化検知](https://www.amazon.co.jp/%E7%95%B0%E5%B8%B8%E6%A4%9C%E7%9F%A5%E3%81%A8%E5%A4%89%E5%8C%96%E6%A4%9C%E7%9F%A5-%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%E3%83%97%E3%83%AD%E3%83%95%E3%82%A7%E3%83%83%E3%82%B7%E3%83%A7%E3%83%8A%E3%83%AB%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-%E4%BA%95%E6%89%8B-%E5%89%9B/dp/4061529080)（書籍）
+* LSTM_Keras : [異常検知と変化検知](https://www.amazon.co.jp/%E7%95%B0%E5%B8%B8%E6%A4%9C%E7%9F%A5%E3%81%A8%E5%A4%89%E5%8C%96%E6%A4%9C%E7%9F%A5-%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%E3%83%97%E3%83%AD%E3%83%95%E3%82%A7%E3%83%83%E3%82%B7%E3%83%A7%E3%83%8A%E3%83%AB%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-%E4%BA%95%E6%89%8B-%E5%89%9B/dp/4061529080)（書籍）
 * Singular_Spectrum_Transformation : [https://ide-research.net/papers/2004_JSSST_Ide.pdf](https://ide-research.net/papers/2004_JSSST_Ide.pdf)
 * ANACONDA : [https://www.ibm.com/downloads/cas/AVQZBQ2L](https://www.ibm.com/downloads/cas/AVQZBQ2L)
 * GraphLasso : [https://www.ibm.com/downloads/cas/AVQZBQ2L](https://www.ibm.com/downloads/cas/AVQZBQ2L)
