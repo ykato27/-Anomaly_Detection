@@ -6,6 +6,8 @@
 .
 ├── README.md                 READMEファイル
 ├── Dockerfile                Dockerファイル
+├── docker-compose.yml
+├── .dockerignore        
 ├── notebook                  jupyter notebook
 └── data                      dataファイル
 ```
@@ -15,14 +17,12 @@ Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Anomaly
 ```
 cd Desktop/Anomaly_Detection
 ```
-Dockerによる環境構築
+
+Dockerによる環境構築（対象フォルダをマウント例：Desktop/Anomaly_Detection）
 ```
-docker build .
+docker-compose up --build
 ```
-docker run実行（対象フォルダをマウントする／例：Desktop/Anomaly_Detection）
-```
-docker run -p 8888:8888 -v ~/Desktop/Anomaly_Detection/:/work --name Anomaly_Detection <docker image>
-```
+
 ブラウザーを立ち上げてlocalhost:8888へアクセス
 workフォルダ内が対象フォルダにマウントされている
 
