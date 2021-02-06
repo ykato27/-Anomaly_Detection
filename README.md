@@ -5,26 +5,27 @@
 ```
 .
 ├── README.md                 READMEファイル
+├── .dockerignore        
 ├── Dockerfile                Dockerファイル
 ├── docker-compose.yml
-├── .dockerignore        
 ├── notebook                  jupyter notebook
 └── data                      dataファイル
 ```
 
 ## 環境構築
-Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Anomaly_Detection）
+
+* Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Anomaly_Detection）
 ```
 cd Desktop/Anomaly_Detection
 ```
 
-Dockerによる環境構築（対象フォルダをマウント例：Desktop/Anomaly_Detection）
+* Dockerによる環境構築（フォルダをマウント：Desktop/Anomaly_Detection）
 ```
 docker-compose up --build
 ```
 
-ブラウザーを立ち上げてlocalhost:8888へアクセス
-workフォルダ内が対象フォルダにマウントされている
+* ブラウザーを立ち上げてlocalhost:8888へアクセス
+* ローカルフォルダがマウントされている
 
 ## jupyter notebook説明
 * ChangeFinder.ipynb : 変化点検知(ChangeFinder)のnotebook
