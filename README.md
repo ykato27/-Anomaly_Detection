@@ -1,4 +1,4 @@
-# Anomaly_Detection
+# Anomaly-Detection
 * 異常検知モデル全般のプログラム
 
 ## リポジトリ構成
@@ -14,9 +14,9 @@
 
 ## 環境構築
 
-* Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Anomaly_Detection）
+* Dockderfileがあるホスト側のフォルダへ移動（例：Desktop/Anomaly-Detection）
 ```
-cd Desktop/Anomaly_Detection
+cd Desktop/Anomaly-Detection
 ```
 
 * Dockerによる環境構築（フォルダをマウント：Desktop/Anomaly_Detection）
