@@ -21,7 +21,7 @@ cd Desktop/Anomaly-Detection
 
 * Dockerによる環境構築（フォルダをマウント：Desktop/Anomaly_Detection）
 ```
-docker-compose up
+docker-compose up --build
 ```
 
 * ブラウザーを立ち上げてlocalhost:8888へアクセス
