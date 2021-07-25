@@ -1,11 +1,11 @@
 version: "3"
 services:
-  anomaly_detection:
-    container_name: anomaly_detection
-    image: anomaly_detection:1.0
+  hmmlearn:
+    container_name: hmmlearn
+    image: hmmlearn:1.0
     build:
       context: ./docker
-      dockerfile: ./Dockerfile
+      dockerfile: ./hmmlearn/Dockerfile
     volumes:
       - ./:/work
     working_dir: /work

@@ -1,11 +1,11 @@
 version: "3"
 services:
-  anomaly_detection:
-    container_name: anomaly_detection
-    image: anomaly_detection:1.0
+  changefinder:
+    container_name: changefinder
+    image: changefinder:1.0
     build:
       context: ./docker
-      dockerfile: ./Dockerfile
+      dockerfile: ./changefinder/Dockerfile
     volumes:
       - ./:/work
     working_dir: /work
