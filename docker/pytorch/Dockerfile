@@ -15,7 +15,8 @@ RUN wget https://repo.continuum.io/archive/Anaconda3-2021.04-Linux-x86_64.sh && 
 ENV PATH /opt/anaconda3/bin:$PATH
 
 RUN pip install --upgrade pip \
-	tensorflow-cpu==2.4.0 \
-	keras==2.4.0 \
+	torch==1.8.0 \
+	torchvision==0.9.0 \
+	torchaudio==0.8.0 \
 	optuna \
 	nb_black
