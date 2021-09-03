@@ -5,12 +5,54 @@
 ## リポジトリ構成
 ```
 .
-├── README.md                 READMEファイル
-├── .dockerignore        
-├── Dockerfile                Dockerファイル
+├── README.md
+├── data
+│   ├── qtdbsel102.txt
+│   ├── water-treatment.csv
+│   └── watertreatment_mod.csv
+├── docker
+│   ├── Dockerfile
+│   ├── changefinder
+│   │   └── Dockerfile
+│   ├── hmmlearn
+│   │   └── Dockerfile
+│   ├── keras
+│   │   └── Dockerfile
+│   └── pytorch
+│       └── Dockerfile
+├── docker-compose-changefinder.yml
+├── docker-compose-hmmlearn.yml
+├── docker-compose-keras.yml
+├── docker-compose-pytorch.yml
 ├── docker-compose.yml
-├── notebook                  jupyter notebook
-└── data                      dataファイル
+├── docs
+├── example
+├── models
+├── notebooks
+│   ├── ANACONDA.ipynb
+│   ├── GraphLasso.ipynb
+│   ├── KNearestNeighbors_AnomalyDetection.ipynb
+│   ├── MSPC.ipynb
+│   ├── Singular_Spectrum_Transformation.ipynb
+│   ├── changefinder
+│   │   └── ChangeFinder.ipynb
+│   ├── hmmlearn
+│   │   └── HMM.ipynb
+│   ├── keras
+│   │   ├── Anomaly_Detection_Using_Autoencoders.ipynb
+│   │   ├── AutoEncoder_Keras.ipynb
+│   │   ├── AutoEncoder_Keras_Optuna.ipynb
+│   │   └── LSTM_Keras.ipynb
+│   └── pytorch
+│       ├── AutoEncoder_pytorch.ipynb
+│       └── LSTM_Autoencoder.ipynb
+├── pyproject.toml
+├── setup.cfg
+├── src
+│   └── __init__.py
+├── tests
+│   └── __init__.py
+└── work
 ```
 
 ## 環境構築
@@ -24,7 +66,7 @@ cd Desktop/Anomaly-Detection
 - Dockerによる環境構築（フォルダをマウント：Desktop/Anomaly_Detection）
 
 ```
-docker-compose up --build
+docker-compose -f docker-compose-{*構築対象}.yml up --build
 ```
 
 - ブラウザーを立ち上げてlocalhost:8888へアクセス
