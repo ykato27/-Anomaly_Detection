@@ -94,6 +94,10 @@ docker-compose -f docker-compose-{*構築対象}.yml up --build
 - MSPC : [http://manabukano.brilliant-future.net/research/report/Report2005_MSPC.pdf](http://manabukano.brilliant-future.net/research/report/Report2005_MSPC.pdf)
 - Singular_Spectrum_Transformation : [https://ide-research.net/papers/2004_JSSST_Ide.pdf](https://ide-research.net/papers/2004_JSSST_Ide.pdf)
 
+## Display notebooks
+
+- [View Jupyter notebooks in nbviewer](https://nbviewer.jupyter.org/github/ykato27/Anomaly-Detection/tree/main/notebooks/)
+
 ## 動作環境
 
 マシンスペック（Mac)
